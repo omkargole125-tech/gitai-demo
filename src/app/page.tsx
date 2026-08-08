@@ -107,8 +107,8 @@ export default function Home() {
               <a href="tel:952999503" className="contact-btn">
                 <span className="icon">📞</span> 952999503
               </a>
-              <a href="mailto:info@gitai-tiles.com" className="contact-btn">
-                <span className="icon">✉️</span> info@gitai-tiles.com
+              <a href="mailto:sairajgole663@gmail.com" className="contact-btn">
+                <span className="icon">✉️</span> sairajgole663@gmail.com
               </a>
               <a href="https://www.google.com/maps/dir/?api=1&destination=17.667074,73.980240" target="_blank" rel="noopener noreferrer" className="contact-btn">
                 <span className="icon">📍</span> Get Directions
