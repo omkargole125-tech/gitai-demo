@@ -5,11 +5,19 @@
 /* Navbar */
 .navbar {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 800px;
   z-index: 1000;
-  padding: 1rem 0;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 .nav-container {
@@ -40,10 +48,11 @@
 /* Hero */
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
-  padding-top: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
   overflow: hidden;
 }
 
@@ -93,14 +102,20 @@
 
 /* Sections */
 .section {
-  padding: 8rem 1.5rem;
+  padding: 5rem 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 1.5rem;
+  }
 }
 
 /* About */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 4rem;
+  gap: 2.5rem;
   align-items: center;
 }
 
@@ -285,7 +300,7 @@
 /* Footer & Contact */
 .footer {
   background-color: var(--surface);
-  padding: 4rem 0 2rem;
+  padding: 3rem 0 1.5rem;
   border-top: 1px solid var(--border);
 }
 
