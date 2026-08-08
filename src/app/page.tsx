@@ -123,8 +123,8 @@ export default function Home() {
               <h4>Get In Touch</h4>
               <p>We would love to hear from you. Visit our store or reach out to us directly!</p>
               <div className="contact-links">
-                <a href="tel:952999503" className="contact-btn">
-                  <span className="icon">📞</span> 952999503
+                <a href="tel:9529995030" className="contact-btn">
+                  <span className="icon">📞</span> 9529995030
                 </a>
                 <a href="mailto:sairajgole663@gmail.com" className="contact-btn">
                   <span className="icon">✉️</span> sairajgole663@gmail.com
